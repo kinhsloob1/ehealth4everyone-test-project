@@ -1,0 +1,1214 @@
+{
+  "blood-groups": {
+    "O": { "name": "O" },
+    "O+": { "name": "O+" },
+    "A": { "name": "A" },
+    "A+": { "name": "A+" },
+    "B": { "name": "B" },
+    "B+": { "name": "B+" },
+    "AB": { "name": "AB" },
+    "AB+": { "name": "AB+" }
+  },
+  "patients": [
+    {
+      "name": "Ladonna Bond",
+      "age": 24,
+      "blood-groups": {
+        "O": false,
+        "A": true,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Chelsea Copeland",
+      "age": 48,
+      "blood-groups": {
+        "O": false,
+        "A": true,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Petra Small",
+      "age": 55,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": true,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Gentry Hancock",
+      "age": 51,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": true,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Hardin Cooper",
+      "age": 43,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": true,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Lela Bonner",
+      "age": 16,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": true,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Mildred Johnston",
+      "age": 59,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": true
+      }
+    },
+    {
+      "name": "Julie Whitney",
+      "age": 12,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": true,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Schultz Cain",
+      "age": 31,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": true
+      }
+    },
+    {
+      "name": "Adrienne Sweet",
+      "age": 68,
+      "blood-groups": {
+        "O": false,
+        "A": true,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Earnestine Ortega",
+      "age": 73,
+      "blood-groups": {
+        "O": true,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Harrison Padilla",
+      "age": 26,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": true
+      }
+    },
+    {
+      "name": "Harmon Booth",
+      "age": 34,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": true,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Flynn Carrillo",
+      "age": 40,
+      "blood-groups": {
+        "O": true,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Gibbs Adams",
+      "age": 80,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": true,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Charity Estes",
+      "age": 32,
+      "blood-groups": {
+        "O": false,
+        "A": true,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Hopper Kramer",
+      "age": 9,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": true
+      }
+    },
+    {
+      "name": "Thomas Fields",
+      "age": 68,
+      "blood-groups": {
+        "O": false,
+        "A": true,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Perry Mitchell",
+      "age": 41,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": true,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Dollie Woodard",
+      "age": 69,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": true,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Holder Nixon",
+      "age": 31,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": true,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Curry Leon",
+      "age": 71,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": true,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Emerson Dunn",
+      "age": 76,
+      "blood-groups": {
+        "O": true,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Cameron Drake",
+      "age": 68,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": true
+      }
+    },
+    {
+      "name": "Mack Hardin",
+      "age": 37,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": true,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Candice Santana",
+      "age": 41,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": true
+      }
+    },
+    {
+      "name": "Berger Payne",
+      "age": 63,
+      "blood-groups": {
+        "O": true,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Charlene Schultz",
+      "age": 25,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": true,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Lynnette Shields",
+      "age": 53,
+      "blood-groups": {
+        "O": false,
+        "A": true,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Rivera Barber",
+      "age": 3,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": true,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Corine Black",
+      "age": 16,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": true
+      }
+    },
+    {
+      "name": "Gomez Craft",
+      "age": 2,
+      "blood-groups": {
+        "O": false,
+        "A": true,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Bertha Gonzales",
+      "age": 17,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": true,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Francine Bryant",
+      "age": 1,
+      "blood-groups": {
+        "O": true,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Daniels Whitehead",
+      "age": 45,
+      "blood-groups": {
+        "O": true,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Betty Briggs",
+      "age": 3,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": true,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Aida Griffith",
+      "age": 6,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": true
+      }
+    },
+    {
+      "name": "Adriana Strong",
+      "age": 63,
+      "blood-groups": {
+        "O": false,
+        "A": true,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Chasity Conrad",
+      "age": 24,
+      "blood-groups": {
+        "O": true,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Harriet Hess",
+      "age": 36,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": true,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Sheppard Lyons",
+      "age": 53,
+      "blood-groups": {
+        "O": false,
+        "A": true,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Bullock Norris",
+      "age": 30,
+      "blood-groups": {
+        "O": false,
+        "A": true,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Robbie Hodge",
+      "age": 77,
+      "blood-groups": {
+        "O": true,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Carolina Beach",
+      "age": 18,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": true
+      }
+    },
+    {
+      "name": "Kline Jensen",
+      "age": 29,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": true,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Nancy Pace",
+      "age": 18,
+      "blood-groups": {
+        "O": true,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Bessie Love",
+      "age": 53,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": true,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Lane Sanders",
+      "age": 61,
+      "blood-groups": {
+        "O": true,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Reyes Hampton",
+      "age": 48,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": true,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Aline Wheeler",
+      "age": 35,
+      "blood-groups": {
+        "O": true,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Baird Sherman",
+      "age": 14,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": true,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Fernandez Riggs",
+      "age": 25,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": true
+      }
+    },
+    {
+      "name": "Haley Stevenson",
+      "age": 21,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": true,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Marta Mcpherson",
+      "age": 62,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": true,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Silva Wade",
+      "age": 72,
+      "blood-groups": {
+        "O": false,
+        "A": true,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Alford Alford",
+      "age": 53,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": true,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Delaney Oneal",
+      "age": 79,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": true,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Mindy Knight",
+      "age": 63,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": true
+      }
+    },
+    {
+      "name": "Lucy Cook",
+      "age": 65,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": true
+      }
+    },
+    {
+      "name": "Colette Guthrie",
+      "age": 74,
+      "blood-groups": {
+        "O": false,
+        "A": true,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Montgomery Logan",
+      "age": 49,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": true,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "June Lester",
+      "age": 76,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": true,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Rodriquez Moore",
+      "age": 64,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": true
+      }
+    },
+    {
+      "name": "Lila Hensley",
+      "age": 68,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": true,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Sophie Lane",
+      "age": 24,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": true,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Witt Puckett",
+      "age": 17,
+      "blood-groups": {
+        "O": true,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Bryant Green",
+      "age": 19,
+      "blood-groups": {
+        "O": true,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "May Salazar",
+      "age": 20,
+      "blood-groups": {
+        "O": true,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Cardenas Ayers",
+      "age": 13,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": true,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Randall Blackburn",
+      "age": 79,
+      "blood-groups": {
+        "O": false,
+        "A": true,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Kelly Armstrong",
+      "age": 15,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": true,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Woods Merritt",
+      "age": 57,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": true,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Wanda Mcfadden",
+      "age": 65,
+      "blood-groups": {
+        "O": false,
+        "A": true,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Riddle Obrien",
+      "age": 26,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": true,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Alyce Buckner",
+      "age": 17,
+      "blood-groups": {
+        "O": true,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Beth Santos",
+      "age": 55,
+      "blood-groups": {
+        "O": false,
+        "A": true,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Herminia Tucker",
+      "age": 64,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": true
+      }
+    },
+    {
+      "name": "Estella Lindsay",
+      "age": 5,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": true,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Edna Potter",
+      "age": 68,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": true
+      }
+    },
+    {
+      "name": "Paulette Goodwin",
+      "age": 74,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": true
+      }
+    },
+    {
+      "name": "Drake Hendricks",
+      "age": 21,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": true
+      }
+    },
+    {
+      "name": "Bridgett Rodriguez",
+      "age": 30,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": true
+      }
+    },
+    {
+      "name": "Emma Maddox",
+      "age": 33,
+      "blood-groups": {
+        "O": false,
+        "A": true,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Hatfield Lopez",
+      "age": 29,
+      "blood-groups": {
+        "O": false,
+        "A": true,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Love Rivera",
+      "age": 67,
+      "blood-groups": {
+        "O": true,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "French Ferrell",
+      "age": 21,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": true,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Gutierrez Bennett",
+      "age": 52,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": true,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Elaine Calderon",
+      "age": 48,
+      "blood-groups": {
+        "O": false,
+        "A": true,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Cobb Chan",
+      "age": 34,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": true,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Keith Weeks",
+      "age": 37,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": true,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Delacruz Frank",
+      "age": 26,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": true,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Nguyen Espinoza",
+      "age": 26,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": true,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Lillian Hinton",
+      "age": 46,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": true,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Simon Jacobs",
+      "age": 23,
+      "blood-groups": {
+        "O": false,
+        "A": true,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Norton Morales",
+      "age": 79,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": true
+      }
+    },
+    {
+      "name": "Cecile Brewer",
+      "age": 10,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": true
+      }
+    },
+    {
+      "name": "Benjamin Whitley",
+      "age": 77,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": true
+      }
+    },
+    {
+      "name": "Neva Taylor",
+      "age": 63,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": true,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Christina Mcintyre",
+      "age": 78,
+      "blood-groups": {
+        "O": false,
+        "A": true,
+        "B": false,
+        "O+": false,
+        "A+": false,
+        "AB+": false
+      }
+    },
+    {
+      "name": "Leonard Velez",
+      "age": 25,
+      "blood-groups": {
+        "O": false,
+        "A": false,
+        "B": false,
+        "O+": true,
+        "A+": false,
+        "AB+": false
+      }
+    }
+  ]
+}
