@@ -1,7 +1,10 @@
 /* eslint-disable no-underscore-dangle */
 
-class patientsData {
+import { EventEmitter } from "emitter";
+
+class PatientsData extends EventEmitter {
   constructor() {
+    super();
     /** data to hold instance patients variable */
     this._data = null;
 
@@ -42,14 +45,14 @@ class patientsData {
    *  return Boolean
    */
   set data(data) {
-    let savedData;
     try {
-      savedData = JSON.parse(data);
+      const savedData = JSON.parse(data);
       this._data = savedData;
-      this.dispatchEvent(new Event("data-parsing-success"));
+      this.saveToLocal(data);
+      this.emit("data-parsing-success");
       return true;
     } catch (e) {
-      this.dispatchEvent(new Event("data-parsing-error"));
+      this.emit("data-parsing-error");
       return false;
     }
   }
@@ -76,15 +79,17 @@ class patientsData {
    *  returns <Promise>
    */
   async load() {
+    this.emit("loading");
     const dataPromise = this.hasLocalData() ? this.loadFromLocal() : this.loadFromRemote();
 
     try {
       const data = await dataPromise;
-      this.dispatchEvent(new Event("data-loaded"));
+      this.emit("data-loaded");
+      this.data = data;
 
-      return this.data(data);
+      return this.data;
     } catch (e) {
-      this.dispatchEvent(new Event("error-loading-data"));
+      this.emit("error-loading-data");
       throw e;
     }
   }
@@ -93,10 +98,11 @@ class patientsData {
    *  accepts void
    *  returns <Promise>
    */
-  static async loadFromRemote() {
+  async loadFromRemote() {
     // post topic data
     const abortController = new AbortController();
-    const url = this.url();
+    const { url } = this;
+
     const fetchInit = {
       method: "get",
       cache: "force-cache",
@@ -108,7 +114,15 @@ class patientsData {
       throw Error("An error has occurred");
     }
 
-    return response.json();
+    return response.text();
+  }
+
+  /** save to local method
+   *  accepts String
+   *  returns Void
+   */
+  saveToLocal(data) {
+    return window.localStorage.setItem(this.savedKey, data);
   }
 
   /** load from local method
@@ -116,7 +130,7 @@ class patientsData {
    *  returns <Promise> | String
    */
   loadFromLocal(withPromise = true) {
-    const data = window.localStorage.getItem(this.savedKey());
+    const data = window.localStorage.getItem(this.savedKey);
     return withPromise ? Promise.resolve(data) : data;
   }
 
@@ -133,5 +147,69 @@ class patientsData {
    *  accepts void
    *  returns Object | Array
    */
-  getChartData() {}
+  chartData() {
+    const outData = {};
+    const bloodGroups = ["O", "A", "B", "AB", "O+", "A+", "B+", "AB+"];
+    const ageGroups = [
+      {
+        min: 1,
+        max: 14,
+        pointer: "(1 - 14) years old"
+      },
+      {
+        min: 15,
+        max: 30,
+        pointer: "(15 - 30) years old"
+      },
+      {
+        min: 31,
+        max: 50,
+        pointer: "(31 - 50) years old"
+      },
+      {
+        min: 51,
+        max: 70,
+        pointer: "(51 - 70) years old"
+      },
+      {
+        min: 71,
+        max: null,
+        pointer: "(> 71) years old"
+      }
+    ];
+
+    bloodGroups.forEach(bloodGroup => {
+      const data = {};
+
+      data.total = 0;
+      ageGroups.forEach(({ pointer }) => {
+        data[pointer] = 0;
+      });
+
+      outData[bloodGroup] = data;
+    });
+
+    const patientsData = this.data || [];
+    patientsData.forEach(({ age, "blood-groups": patientBloodGroups }) => {
+      let ageGroupPointer = null;
+      ageGroups.forEach(({ min, max, pointer }) => {
+        const maximum = max || Infinity;
+        if (age >= min && age <= maximum) {
+          ageGroupPointer = pointer;
+        }
+      });
+
+      bloodGroups.forEach(bloodGroup => {
+        const isPatientBloodGroup = patientBloodGroups[bloodGroup];
+        if (isPatientBloodGroup) {
+          outData[bloodGroup][ageGroupPointer] += 1;
+          outData[bloodGroup].total += 1;
+        }
+      });
+    });
+
+    return outData;
+  }
 }
+
+export default new PatientsData();
