@@ -1,3 +1,6 @@
 module.exports = {
-  publicPath: "https://kinhsloob1.github.io/ehealth4everyone-test-project/"
+  publicPath: process.env.BASE_URL,
+  devServer: {
+    proxy: process.env.BASE_URL
+  }
 };
