@@ -5,6 +5,7 @@ export default (container, chartData) => {
   const categories = [];
   const series = [];
 
+  /** standarderised the chartData to HighChart format */
   Object.keys(chartData).forEach(category => {
     const categoryValue = chartData[category];
 
