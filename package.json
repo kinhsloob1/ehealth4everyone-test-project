@@ -10,7 +10,7 @@
   "dependencies": {
     "core-js": "^3.6.4",
     "emitter": "0.0.5",
-    "highcharts": "^8.0.0",
+    "highcharts": "^9.0.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
